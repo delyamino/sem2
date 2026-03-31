@@ -79,9 +79,7 @@ public class OrderMenu extends javax.swing.JFrame {
                 cb.setSelected(false); 
             }
         });
-        JPanel btnPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
-        btnPanel.add(btn);
-        add(btnPanel, BorderLayout.SOUTH);
+        add(btn, BorderLayout.SOUTH);
     }
 
     public static void main(String[] args) {
