@@ -81,8 +81,4 @@ public class OrderMenu extends javax.swing.JFrame {
         });
         add(btn, BorderLayout.SOUTH);
     }
-
-    public static void main(String[] args) {
-        java.awt.EventQueue.invokeLater(() -> new OrderMenu().setVisible(true));
-    }
 }

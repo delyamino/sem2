@@ -13,6 +13,6 @@ import javax.swing.SwingUtilities;
 public class Order {
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new OrderMenu().setVisible(true));
+        new OrderMenu().setVisible(true);
     }
 }
