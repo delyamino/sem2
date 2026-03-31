@@ -16,11 +16,11 @@ public class OrderMenu extends javax.swing.JFrame {
     private static final java.util.logging.Logger logger = 
         java.util.logging.Logger.getLogger(OrderMenu.class.getName());
 
-    private JCheckBox fireSauce     = new JCheckBox("Огненный соус (+10)");
-    private JCheckBox dPVension     = new JCheckBox("Двойная порция оленины (+20)");
-    private JCheckBox snowyBerries  = new JCheckBox("Снежные ягоды (+5)");
+    private JCheckBox fireSauce = new JCheckBox("Огненный соус (+10)");
+    private JCheckBox dPVension = new JCheckBox("Двойная порция оленины (+20)");
+    private JCheckBox snowyBerries = new JCheckBox("Снежные ягоды (+5)");
     private JCheckBox nordicFlatbread = new JCheckBox("Нордская лепёшка (+7)");
-    private JCheckBox[] checkBoxes  = {fireSauce, dPVension, snowyBerries, nordicFlatbread};
+    private JCheckBox[] checkBoxes = {fireSauce, dPVension, snowyBerries, nordicFlatbread};
 
     private DefaultTableModel table = new DefaultTableModel(new String[]{"Время", "Заказ", "Цена"}, 0);
 
