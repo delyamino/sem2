@@ -13,9 +13,6 @@ import java.awt.*;
  */
 public class OrderMenu extends javax.swing.JFrame {
 
-    private static final java.util.logging.Logger logger = 
-        java.util.logging.Logger.getLogger(OrderMenu.class.getName());
-
     private JCheckBox fireSauce = new JCheckBox("Огненный соус (+10)");
     private JCheckBox dPVension = new JCheckBox("Двойная порция оленины (+20)");
     private JCheckBox snowyBerries = new JCheckBox("Снежные ягоды (+5)");
